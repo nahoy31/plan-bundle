@@ -1,0 +1,21 @@
+{
+    "name": "nahoy31/plan-bundle",
+    "description": "Plan bundle for API Platform",
+    "keywords": ["api-platform", "symfony3", "symfony4", "plan"],
+    "homepage": "https://github.com/nahoy31/plan-bundle",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yohann Frelicot",
+            "email": "yfrelicot@gmail.com"
+        }
+    ],
+    "require": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Nahoy\\ApiPlatform\\PlanBundle\\": "src/"
+        }
+    }
+}
