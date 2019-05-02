@@ -64,6 +64,7 @@ class LoadClassMetadataListener implements EventSubscriber
 
         $class = new \ReflectionClass($metadata->getName());
 
+        /*
         if (
             $this->plan === $class->getName() &&
             !$metadata->isMappedSuperclass
@@ -78,6 +79,7 @@ class LoadClassMetadataListener implements EventSubscriber
                 ]]
             ]);
         }
+        */
 
         if (
             $this->paymentHistory === $class->getName() &&
